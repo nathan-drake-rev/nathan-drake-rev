@@ -16,11 +16,11 @@
         }
     },
     "require": {
-        "php": "^7.2",
-        "illuminate/config": "~5.0|^6.0",
-        "illuminate/filesystem": "~5.0|^6.0",
-        "illuminate/support": "~5.0|^6.0",
-        "illuminate/hashing": "~5.0|^6.0",
-        "illuminate/session": "~5.0|^6.0"
+        "php": "~7",
+        "illuminate/config": "~5",
+        "illuminate/filesystem": "~5",
+        "illuminate/support": "~5",
+        "illuminate/hashing": "~5",
+        "illuminate/session": "~5"
     }
 }
