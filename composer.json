@@ -1,0 +1,26 @@
+{
+    "name": "rev/rev",
+    "description": "WYSIWYG!",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nathan",
+            "email": "nathan.drake.rev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4": {
+            "Nathan\\Rev\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "illuminate/config": "~5.0|^6.0",
+        "illuminate/filesystem": "~5.0|^6.0",
+        "illuminate/support": "~5.0|^6.0",
+        "illuminate/hashing": "~5.0|^6.0",
+        "illuminate/session": "~5.0|^6.0"
+    }
+}
